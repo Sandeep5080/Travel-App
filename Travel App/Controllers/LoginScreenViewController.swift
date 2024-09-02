@@ -17,6 +17,7 @@ class LoginScreenViewController: UIViewController {
         do {
           try Auth.auth().signOut()
             navigationController?.popToRootViewController(animated: true)
+            print("loggedout")
         } catch let signOutError as NSError {
           print("Error signing out: %@", signOutError)
         }
