@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640FA78C5570AFC6EF1D9166 /* Pods_Travel_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C695E66BEF8A8233CCFB8E3 /* Pods_Travel_App.framework */; };
+		C04C6E962C832B4B00692693 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C6E952C832B4B00692693 /* SignUpViewController.swift */; };
+		C04C6E982C8340E700692693 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C04C6E972C8340E700692693 /* GoogleService-Info.plist */; };
 		C0AF1EF32C83158100080EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AF1EF22C83158100080EAB /* AppDelegate.swift */; };
 		C0AF1EF52C83158100080EAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AF1EF42C83158100080EAB /* SceneDelegate.swift */; };
 		C0AF1EF72C83158100080EAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AF1EF62C83158100080EAB /* ViewController.swift */; };
 		C0AF1EFA2C83158100080EAB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C0AF1EF92C83158100080EAB /* Base */; };
 		C0AF1EFC2C83158200080EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0AF1EFB2C83158200080EAB /* Assets.xcassets */; };
 		C0AF1EFF2C83158200080EAB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C0AF1EFE2C83158200080EAB /* Base */; };
+		C0EE14282C85B9F5004CEA37 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EE14272C85B9F5004CEA37 /* LoginScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DF987D8E4F8152BB3405A7A /* Pods-Travel App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel App.release.xcconfig"; path = "Target Support Files/Pods-Travel App/Pods-Travel App.release.xcconfig"; sourceTree = "<group>"; };
+		4C695E66BEF8A8233CCFB8E3 /* Pods_Travel_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travel_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04C6E952C832B4B00692693 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C04C6E972C8340E700692693 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C0AF1EEF2C83158100080EAB /* Travel App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0AF1EF22C83158100080EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0AF1EF42C83158100080EAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		C0AF1EFB2C83158200080EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0AF1EFE2C83158200080EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0AF1F002C83158200080EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0EE14272C85B9F5004CEA37 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		CE9E71785EF2EFE98BDACE36 /* Pods-Travel App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel App.debug.xcconfig"; path = "Target Support Files/Pods-Travel App/Pods-Travel App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				640FA78C5570AFC6EF1D9166 /* Pods_Travel_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52E5ADA698E260F220E4B10C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E71785EF2EFE98BDACE36 /* Pods-Travel App.debug.xcconfig */,
+				0DF987D8E4F8152BB3405A7A /* Pods-Travel App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8530A7B7D30C7A4AD2E817CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C695E66BEF8A8233CCFB8E3 /* Pods_Travel_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C0AF1EE62C83158100080EAB = {
 			isa = PBXGroup;
 			children = (
 				C0AF1EF12C83158100080EAB /* Travel App */,
 				C0AF1EF02C83158100080EAB /* Products */,
+				52E5ADA698E260F220E4B10C /* Pods */,
+				8530A7B7D30C7A4AD2E817CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +88,24 @@
 			children = (
 				C0AF1EF22C83158100080EAB /* AppDelegate.swift */,
 				C0AF1EF42C83158100080EAB /* SceneDelegate.swift */,
-				C0AF1EF62C83158100080EAB /* ViewController.swift */,
+				C0EE14262C85AC62004CEA37 /* Controllers */,
 				C0AF1EF82C83158100080EAB /* Main.storyboard */,
 				C0AF1EFB2C83158200080EAB /* Assets.xcassets */,
 				C0AF1EFD2C83158200080EAB /* LaunchScreen.storyboard */,
+				C04C6E972C8340E700692693 /* GoogleService-Info.plist */,
 				C0AF1F002C83158200080EAB /* Info.plist */,
 			);
 			path = "Travel App";
+			sourceTree = "<group>";
+		};
+		C0EE14262C85AC62004CEA37 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C04C6E952C832B4B00692693 /* SignUpViewController.swift */,
+				C0AF1EF62C83158100080EAB /* ViewController.swift */,
+				C0EE14272C85B9F5004CEA37 /* LoginScreenViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0AF1F032C83158200080EAB /* Build configuration list for PBXNativeTarget "Travel App" */;
 			buildPhases = (
+				6A60892968AF70F4C7895992 /* [CP] Check Pods Manifest.lock */,
 				C0AF1EEB2C83158100080EAB /* Sources */,
 				C0AF1EEC2C83158100080EAB /* Frameworks */,
 				C0AF1EED2C83158100080EAB /* Resources */,
+				137B24F0294A0BEBA9CCA49D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +169,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0AF1EFC2C83158200080EAB /* Assets.xcassets in Resources */,
+				C04C6E982C8340E700692693 /* GoogleService-Info.plist in Resources */,
 				C0AF1EFF2C83158200080EAB /* Base in Resources */,
 				C0AF1EFA2C83158100080EAB /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		137B24F0294A0BEBA9CCA49D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Travel App/Pods-Travel App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Travel App/Pods-Travel App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Travel App/Pods-Travel App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A60892968AF70F4C7895992 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Travel App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C0AF1EEB2C83158100080EAB /* Sources */ = {
@@ -140,6 +226,8 @@
 			files = (
 				C0AF1EF72C83158100080EAB /* ViewController.swift in Sources */,
 				C0AF1EF32C83158100080EAB /* AppDelegate.swift in Sources */,
+				C04C6E962C832B4B00692693 /* SignUpViewController.swift in Sources */,
+				C0EE14282C85B9F5004CEA37 /* LoginScreenViewController.swift in Sources */,
 				C0AF1EF52C83158100080EAB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,11 +375,13 @@
 		};
 		C0AF1F042C83158200080EAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9E71785EF2EFE98BDACE36 /* Pods-Travel App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Travel App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,11 +404,13 @@
 		};
 		C0AF1F052C83158200080EAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF987D8E4F8152BB3405A7A /* Pods-Travel App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Travel App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
