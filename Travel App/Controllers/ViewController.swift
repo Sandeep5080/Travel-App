@@ -23,6 +23,7 @@ class LoginViewController: UIViewController {
             Auth.auth().signIn(withEmail: email, password: password) {  authResult, error in
                 //new code here
                 //this is the travel app code
+                //full application code here
 
                 if let e = error {
                     print(e)
