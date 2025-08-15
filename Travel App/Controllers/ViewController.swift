@@ -19,6 +19,7 @@ class LoginViewController: UIViewController {
     }
     //Button Code
     //full code
+    //All code
     @IBAction func loginPressed(_ sender: Any) {
         if let email = emailTextfield.text, let password = passwordTextfield.text {
             Auth.auth().signIn(withEmail: email, password: password) {  authResult, error in
